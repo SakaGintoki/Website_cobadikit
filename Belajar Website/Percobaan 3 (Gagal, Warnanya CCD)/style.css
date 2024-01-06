@@ -1,0 +1,49 @@
+*, html, body{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: Poppins;
+}
+
+header{
+	background: #150452;
+	background-size: contain;
+	color: darkblue;
+	display: flex;
+	flex-wrap: center;
+	justify-content: center;
+	align-items: center;
+	gap: 10px;
+
+}
+.container{
+	width: 100%;
+	height: 100vh;
+	background: linear-gradient(#2b1055, #150452);
+	color: #fff;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+a {
+	text-decoration: none;
+}
+
+.logo {
+	margin-left: 12px;
+	margin-right: au;
+	cursor: pointer;
+	text-decoration: none;
+}
+
+li {
+	list-style: none;
+	text-decoration: none;
+	display: inline-block;
+
+}
+.container h1{
+	font-size: 50px;
+	
+}
